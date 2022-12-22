@@ -1,0 +1,9 @@
+t=int(input())
+while t>0:
+    a=int(input())
+    if a>100:
+    
+        print(a-10)
+    else:
+        print(a)
+    t=t-1
