@@ -1,0 +1,10 @@
+t=int(input())
+while t>0:
+    a,b,c=input().split()
+    a=int(a)
+    b=int(b)
+    c=int(c)
+    d=max(a,b,c)
+    e=min(a,b,c)
+    print(d-e)
+    t=t-1
