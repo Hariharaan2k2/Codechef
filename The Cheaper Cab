@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int n,a,b;
+	cin>>n;
+	while(n){
+	    cin>>a>>b;
+	    if(a<b){
+	        cout<<"FIRST"<<endl;
+	        
+	    }
+	    else if(b<a){
+	        cout<<"SECOND"<<endl;
+	    }
+	    else{
+	        cout<<"ANY"<<endl;
+	    }
+	    n--;
+	   
+	}
+	return 0;
+}
