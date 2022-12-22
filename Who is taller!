@@ -1,0 +1,8 @@
+t=int(input())
+while t>0:
+    a,b=map(int,input().split())
+    if a>b:
+        print("A")
+    else:
+        print("B")
+    t=t-1
